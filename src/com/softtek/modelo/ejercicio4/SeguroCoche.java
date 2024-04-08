@@ -13,6 +13,22 @@ public class SeguroCoche {
     }
 
     public String reparar(Coche coche) {
-        return "A reparar " + coche.toString();
+        return taller.reparar();
+    }
+
+    public Italler getTaller() {
+        return taller;
+    }
+
+    public void setTaller(Italler taller) {
+        this.taller = taller;
+    }
+
+    public String getAseguradora() {
+        return aseguradora;
+    }
+
+    public void setAseguradora(String aseguradora) {
+        this.aseguradora = aseguradora;
     }
 }

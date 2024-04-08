@@ -1,8 +1,8 @@
 package com.softtek.modelo.ejercicio4;
 
-public class TallerPintura extends Italler{
+public class TallerPintura implements Italler{
     @Override
-    public String reparar(Coche coche) {
-        return super.reparar(coche);
+    public String reparar() {
+        return "Pintado";
     }
 }
