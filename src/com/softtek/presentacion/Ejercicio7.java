@@ -5,9 +5,16 @@ import com.softtek.modelo.ejercicio7.Producto;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
-        Producto producto = new Producto();
+        Producto producto1 = new Producto();
         try {
-            producto.comprobar();
+            producto1.comprobar();
+        } catch (ExcepcionId e) {
+            e.printStackTrace();
+        }
+
+        Producto producto2 = new Producto("10a", "leche", 10, "puleva", "leche de vaca");
+        try {
+            producto2.comprobar();
         } catch (ExcepcionId e) {
             e.printStackTrace();
         }
