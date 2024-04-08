@@ -27,7 +27,7 @@ public class Secretario implements Empleado{
     @Override
     public String toString() {
         return "Secretario{" +
-                "informe=" + informe +
+                "informe=" + informe.getInforme() +
                 ", empresa='" + empresa + '\'' +
                 ", email='" + email + '\'' +
                 '}';

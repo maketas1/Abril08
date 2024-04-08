@@ -23,7 +23,7 @@ public class Jefe implements Empleado{
     @Override
     public String toString() {
         return "Jefe{" +
-                "informe=" + informe +
+                "informe=" + informe.getInforme() +
                 '}';
     }
 

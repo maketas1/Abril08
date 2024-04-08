@@ -23,7 +23,7 @@ public class Director implements Empleado{
     @Override
     public String toString() {
         return "Director{" +
-                "informe=" + informe +
+                "informe=" + informe.getInforme() +
                 '}';
     }
 

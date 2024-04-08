@@ -8,11 +8,13 @@ public class Ejercicio5 {
 
         InformeTrimestre1 informeTrimestre1 = new InformeTrimestre1();
 
-        Jefe jefe = new Jefe(informeTrimestre1);
+        Jefe jefe = new Jefe();
+        jefe.setInforme(informeTrimestre1);
         System.out.println(jefe.toString());
         System.out.println(jefe.getTarea());
 
-        Director director = new Director(informeTrimestre2);
+        Director director = new Director();
+        director.setInforme(informeTrimestre2);
         System.out.println(director.toString());
         System.out.println(director.getTarea());
 
