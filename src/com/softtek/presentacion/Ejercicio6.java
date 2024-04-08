@@ -11,6 +11,7 @@ public class Ejercicio6 {
         AccesoDesarrollo accesoDesarrollo = new AccesoDesarrollo();
         accesoDesarrollo.insertar(cliente);
         ClienteDao clienteDao = new ClienteDao(accesoDesarrollo);
+        System.out.println(clienteDao.insertar(cliente));
         System.out.println(clienteDao.toString());
     }
 }

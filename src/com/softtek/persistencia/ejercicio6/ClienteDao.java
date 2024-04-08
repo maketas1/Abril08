@@ -12,9 +12,7 @@ public class ClienteDao {
         this.conexion = conexion;
     }
 
-    public void insertar(Cliente cliente) {
-        conexion.insertar(cliente);
-    }
+    public String insertar(Cliente cliente) {return conexion.insertar(cliente);}
 
     @Override
     public String toString() {
