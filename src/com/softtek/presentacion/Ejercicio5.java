@@ -19,5 +19,6 @@ public class Ejercicio5 {
         Secretario secretario = new Secretario(informeTrimestre1, "Softtek", "secretario@gmail.com");
         System.out.println(secretario.toString());
         System.out.println(secretario.getTarea());
+
     }
 }
